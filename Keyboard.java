@@ -148,6 +148,8 @@ public class Keyboard {
         doType(keyCodes, 0, keyCodes.length);
     }
 
+    zhelizaixiugaiyixia
+    
     private void doType(int[] keyCodes, int offset, int length) {
         if (length == 0) {
             return;
@@ -157,6 +159,5 @@ public class Keyboard {
         doType(keyCodes, offset + 1, length - 1);
         robot.keyRelease(keyCodes[offset]);
     }
-    zhelixiugaiyixia
-
+    
 }
