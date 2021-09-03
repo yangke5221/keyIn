@@ -130,4 +130,5 @@ public class keyIn
         Random r = new Random();
         System.out.println(MakeKey(args[0], 0, r.nextInt(100000)));
     }
+    //gaila
 }
