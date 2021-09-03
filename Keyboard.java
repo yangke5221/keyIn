@@ -148,7 +148,7 @@ public class Keyboard {
         doType(keyCodes, 0, keyCodes.length);
     }
 
-    zhelizaixiugaiyixia
+   // zhelizaixiugaiyixia
     
     private void doType(int[] keyCodes, int offset, int length) {
         if (length == 0) {
